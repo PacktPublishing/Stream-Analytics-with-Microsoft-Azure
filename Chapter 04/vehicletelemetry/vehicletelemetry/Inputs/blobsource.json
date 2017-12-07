@@ -1,0 +1,29 @@
+﻿{
+  "Name": "blobsource",
+  "Type": "Reference data",
+  "DataSourceType": "Blob Storage",
+  "Sample": null,
+  "EventHubProperties": null,
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": {
+    "Container": "vehiclemodel",
+    "DateFormat": "yyyy/MM/dd",
+    "PathPattern": "VINRefData.csv",
+    "StorageAccounts": [
+      {
+        "AccountKey": null,
+        "AccountName": "vehicletelemetrydata"
+      }
+    ],
+    "TimeFormat": "HH"
+  },
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Csv",
+    "FieldDelimiter": ",",
+    "Format": null
+  },
+  "DataSourceCredentialDomain": null,
+  "ScriptType": "Input"
+}

@@ -1,0 +1,8 @@
+﻿select input.vin, blobsource.Model,input.timestamp, input.outsideTemperature, 
+input.engineTemperature, input.speed, input.fuel, input.engineoil, input.tirepressure, 
+input.odometer, input.city, input.accelerator_pedal_position, input.parking_brake_status, 
+input.headlamp_status, input.brake_pedal_status, input.transmission_gear_position, 
+input.ignition_status, input.windshield_wiper_status, input.abs 
+into output from input 
+join blobsource on input.vin = blobsource.VIN
+ 

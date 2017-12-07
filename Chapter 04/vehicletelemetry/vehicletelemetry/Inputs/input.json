@@ -1,0 +1,24 @@
+﻿{
+  "Name": "input",
+  "Type": "Data Stream",
+  "DataSourceType": "Event Hub",
+  "Sample": null,
+  "EventHubProperties": {
+    "ConsumerGroupName": null,
+    "EventHubName": "vehicletelemetry",
+    "ServiceBusNamespace": "connectedcardemo",
+    "SharedAccessPolicyKey": null,
+    "SharedAccessPolicyName": "ASA"
+  },
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": null,
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": null
+  },
+  "DataSourceCredentialDomain": "ff118f8b-4bb7-471f-8fcf-12d1953ca1cd.StreamAnalyticsCredential",
+  "ScriptType": "Input"
+}

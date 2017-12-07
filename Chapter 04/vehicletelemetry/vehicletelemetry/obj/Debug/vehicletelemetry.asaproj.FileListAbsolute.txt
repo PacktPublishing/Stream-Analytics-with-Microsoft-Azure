@@ -1,0 +1,3 @@
+\\192.168.0.200\Current-Titles\000_Product ID\8382_Stream Analytics with Microsoft Azure\Final\Code\StreamAnalyticswithMicrosoftAzure_Code\Chapter 04\vehicletelemetry\vehicletelemetry\bin\Debug\vehicletelemetry
+\\192.168.0.200\Current-Titles\000_Product ID\8382_Stream Analytics with Microsoft Azure\Final\Code\StreamAnalyticswithMicrosoftAzure_Code\Chapter 04\vehicletelemetry\vehicletelemetry\obj\Debug\vehicletelemetry.asaproj.CoreCompileInputs.cache
+\\192.168.0.200\Current-Titles\000_Product ID\8382_Stream Analytics with Microsoft Azure\Final\Code\StreamAnalyticswithMicrosoftAzure_Code\Chapter 04\vehicletelemetry\vehicletelemetry\obj\Debug\vehicletelemetry

@@ -1,0 +1,5 @@
+E:\MSFT Laptop\ASA-Packt\Section-5\ASAManagement\ASAManagement\Fakes\Microsoft.Azure.Common.fakes : warning : Cannot generate stub for Microsoft.Azure.OperationStatus: type is a value type.
+E:\MSFT Laptop\ASA-Packt\Section-5\ASAManagement\ASAManagement\Fakes\Microsoft.Azure.Common.fakes : warning : Cannot generate stub for Microsoft.Azure.Common.Properties.Resources: type is not visible to exported or assembly(Microsoft.Azure.Common.Fakes).
+E:\MSFT Laptop\ASA-Packt\Section-5\ASAManagement\ASAManagement\Fakes\Microsoft.Azure.Common.fakes : warning : Cannot generate shim for Microsoft.Azure.OperationStatus: type is an enum.
+E:\MSFT Laptop\ASA-Packt\Section-5\ASAManagement\ASAManagement\Fakes\Microsoft.Azure.Common.fakes : warning : Cannot generate shim for Microsoft.Azure.Common.Properties.Resources: type is not visible to exported or assembly(Microsoft.Azure.Common.Fakes).
+E:\MSFT Laptop\ASA-Packt\Section-5\ASAManagement\ASAManagement\Fakes\Microsoft.Azure.Common.fakes : warning : Cannot generate shim for Microsoft.Azure.Common.OData.UrlExpressionVisitor+<>c: type is not supported because of internal limitations.

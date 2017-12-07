@@ -1,0 +1,1184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.Common.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute">
+            <summary>Shim type of Microsoft.Azure.Common.OData.FilterParameterAttribute</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.#ctor(Microsoft.Azure.Common.OData.FilterParameterAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.AllInstances.FormatGet">
+            <summary>Sets the shim of FilterParameterAttribute.get_Format()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.AllInstances.FormatSetString">
+            <summary>Sets the shim of FilterParameterAttribute.set_Format(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.AllInstances.NameGet">
+            <summary>Sets the shim of FilterParameterAttribute.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.AllInstances.NameSetString">
+            <summary>Sets the shim of FilterParameterAttribute.set_Name(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.ConstructorString">
+            <summary>Sets the shim of FilterParameterAttribute.FilterParameterAttribute(String name)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.ConstructorStringString">
+            <summary>Sets the shim of FilterParameterAttribute.FilterParameterAttribute(String name, String format)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.FormatGet">
+            <summary>Sets the shim of FilterParameterAttribute.get_Format()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.FormatSetString">
+            <summary>Sets the shim of FilterParameterAttribute.set_Format(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.NameGet">
+            <summary>Sets the shim of FilterParameterAttribute.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterParameterAttribute.NameSetString">
+            <summary>Sets the shim of FilterParameterAttribute.set_Name(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.ShimFilterString">
+            <summary>Shim type of Microsoft.Azure.Common.OData.FilterString</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterString.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterString.#ctor(Microsoft.Azure.Common.OData.FilterString)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.ShimFilterString.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterString.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterString.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterString.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimFilterString.Constructor">
+            <summary>Sets the shim of FilterString.FilterString()</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimFilterString.GenerateOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.String})">
+            <summary>Sets the shim of FilterString.Generate(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; filter)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor">
+            <summary>Shim type of Microsoft.Azure.Common.OData.UrlExpressionVisitor</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.#ctor(Microsoft.Azure.Common.OData.UrlExpressionVisitor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.GetPropertyFormatPropertyInfo">
+            <summary>Sets the shim of UrlExpressionVisitor.GetPropertyFormat(PropertyInfo property)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.GetPropertyNamePropertyInfo">
+            <summary>Sets the shim of UrlExpressionVisitor.GetPropertyName(PropertyInfo property)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.GetUrlNameExpressionType">
+            <summary>Sets the shim of UrlExpressionVisitor.GetUrlName(ExpressionType exprType)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.PrintConstantObject">
+            <summary>Sets the shim of UrlExpressionVisitor.PrintConstant(Object val)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.ToString01">
+            <summary>Sets the shim of UrlExpressionVisitor.ToString()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.VisitBinaryBinaryExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitBinary(BinaryExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.VisitConditionalConditionalExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitConditional(ConditionalExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.VisitConstantConstantExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitConstant(ConstantExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.VisitMemberMemberExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitMember(MemberExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.VisitMethodCallMethodCallExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitMethodCall(MethodCallExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.VisitNewNewExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitNew(NewExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.VisitUnaryUnaryExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitUnary(UnaryExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.AllInstances.closeUnaryBooleanOperator">
+            <summary>Sets the shim of UrlExpressionVisitor.closeUnaryBooleanOperator()</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.Constructor">
+            <summary>Sets the shim of UrlExpressionVisitor.UrlExpressionVisitor()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.GetPropertyFormatPropertyInfo">
+            <summary>Sets the shim of UrlExpressionVisitor.GetPropertyFormat(PropertyInfo property)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.GetPropertyNamePropertyInfo">
+            <summary>Sets the shim of UrlExpressionVisitor.GetPropertyName(PropertyInfo property)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.GetUrlNameExpressionType">
+            <summary>Sets the shim of UrlExpressionVisitor.GetUrlName(ExpressionType exprType)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.PrintConstantObject">
+            <summary>Sets the shim of UrlExpressionVisitor.PrintConstant(Object val)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.ToString">
+            <summary>Sets the shim of UrlExpressionVisitor.ToString()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.VisitBinaryBinaryExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitBinary(BinaryExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.VisitConditionalConditionalExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitConditional(ConditionalExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.VisitConstantConstantExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitConstant(ConstantExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.VisitMemberMemberExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitMember(MemberExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.VisitMethodCallMethodCallExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitMethodCall(MethodCallExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.VisitNewNewExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitNew(NewExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.VisitUnaryUnaryExpression">
+            <summary>Sets the shim of UrlExpressionVisitor.VisitUnary(UnaryExpression node)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.ShimUrlExpressionVisitor.closeUnaryBooleanOperator">
+            <summary>Sets the shim of UrlExpressionVisitor.closeUnaryBooleanOperator()</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute">
+            <summary>Stub type of Microsoft.Azure.Common.OData.FilterParameterAttribute</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.Equals(System.Object)">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.GetHashCode">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubFilterParameterAttribute</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.Match(System.Object)">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubFilterParameterAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.StubFilterString">
+            <summary>Stub type of Microsoft.Azure.Common.OData.FilterString</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterString.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubFilterString.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubFilterString.InitializeStub">
+            <summary>Initializes a new instance of type StubFilterString</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubFilterString.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubFilterString.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor">
+            <summary>Stub type of Microsoft.Azure.Common.OData.UrlExpressionVisitor</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.InitializeStub">
+            <summary>Initializes a new instance of type StubUrlExpressionVisitor</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.ToString">
+            <summary>Sets the stub of UrlExpressionVisitor.ToString()</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.ToString01">
+            <summary>Sets the stub of UrlExpressionVisitor.ToString()</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitBinary(System.Linq.Expressions.BinaryExpression)">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitBinary(BinaryExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitBinaryBinaryExpression">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitBinary(BinaryExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitBlock(System.Linq.Expressions.BlockExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitBlock(BlockExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitBlockBlockExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitBlock(BlockExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitCatchBlock(System.Linq.Expressions.CatchBlock)">
+            <summary>Sets the stub of ExpressionVisitor.VisitCatchBlock(CatchBlock node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitCatchBlockCatchBlock">
+            <summary>Sets the stub of ExpressionVisitor.VisitCatchBlock(CatchBlock node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitConditional(System.Linq.Expressions.ConditionalExpression)">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitConditional(ConditionalExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitConditionalConditionalExpression">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitConditional(ConditionalExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitConstant(System.Linq.Expressions.ConstantExpression)">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitConstant(ConstantExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitConstantConstantExpression">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitConstant(ConstantExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitDebugInfo(System.Linq.Expressions.DebugInfoExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitDebugInfo(DebugInfoExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitDebugInfoDebugInfoExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitDebugInfo(DebugInfoExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitDefault(System.Linq.Expressions.DefaultExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitDefault(DefaultExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitDefaultDefaultExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitDefault(DefaultExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitDynamic(System.Linq.Expressions.DynamicExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitDynamic(DynamicExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitDynamicDynamicExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitDynamic(DynamicExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitElementInit(System.Linq.Expressions.ElementInit)">
+            <summary>Sets the stub of ExpressionVisitor.VisitElementInit(ElementInit node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitElementInitElementInit">
+            <summary>Sets the stub of ExpressionVisitor.VisitElementInit(ElementInit node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitExtension(System.Linq.Expressions.Expression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitExtension(Expression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitExtensionExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitExtension(Expression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitGoto(System.Linq.Expressions.GotoExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitGoto(GotoExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitGotoGotoExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitGoto(GotoExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitIndex(System.Linq.Expressions.IndexExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitIndex(IndexExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitIndexIndexExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitIndex(IndexExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitInvocation(System.Linq.Expressions.InvocationExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitInvocation(InvocationExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitInvocationInvocationExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitInvocation(InvocationExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitLabel(System.Linq.Expressions.LabelExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitLabel(LabelExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitLabelLabelExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitLabel(LabelExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitLabelTarget(System.Linq.Expressions.LabelTarget)">
+            <summary>Sets the stub of ExpressionVisitor.VisitLabelTarget(LabelTarget node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitLabelTargetLabelTarget">
+            <summary>Sets the stub of ExpressionVisitor.VisitLabelTarget(LabelTarget node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitLambda``1(System.Linq.Expressions.Expression{``0})">
+            <summary>Sets the stub of ExpressionVisitor.VisitLambda(Expression`1&lt;!!0&gt; node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitLambdaOf1ExpressionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{``0},System.Linq.Expressions.Expression})">
+            <summary>Sets stubs of VisitLambda(Expression`1&lt;!!0&gt; node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitListInit(System.Linq.Expressions.ListInitExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitListInit(ListInitExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitListInitListInitExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitListInit(ListInitExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitLoop(System.Linq.Expressions.LoopExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitLoop(LoopExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitLoopLoopExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitLoop(LoopExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMember(System.Linq.Expressions.MemberExpression)">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitMember(MemberExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberAssignment(System.Linq.Expressions.MemberAssignment)">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberAssignment(MemberAssignment node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberAssignmentMemberAssignment">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberAssignment(MemberAssignment node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberBinding(System.Linq.Expressions.MemberBinding)">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberBinding(MemberBinding node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberBindingMemberBinding">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberBinding(MemberBinding node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberInit(System.Linq.Expressions.MemberInitExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberInit(MemberInitExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberInitMemberInitExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberInit(MemberInitExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberListBinding(System.Linq.Expressions.MemberListBinding)">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberListBinding(MemberListBinding node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberListBindingMemberListBinding">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberListBinding(MemberListBinding node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberMemberBinding(System.Linq.Expressions.MemberMemberBinding)">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberMemberBinding(MemberMemberBinding node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberMemberBindingMemberMemberBinding">
+            <summary>Sets the stub of ExpressionVisitor.VisitMemberMemberBinding(MemberMemberBinding node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMemberMemberExpression">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitMember(MemberExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitMethodCall(MethodCallExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitMethodCallMethodCallExpression">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitMethodCall(MethodCallExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitNew(System.Linq.Expressions.NewExpression)">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitNew(NewExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitNewArray(System.Linq.Expressions.NewArrayExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitNewArray(NewArrayExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitNewArrayNewArrayExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitNewArray(NewArrayExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitNewNewExpression">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitNew(NewExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitParameter(System.Linq.Expressions.ParameterExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitParameter(ParameterExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitParameterParameterExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitParameter(ParameterExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitRuntimeVariables(System.Linq.Expressions.RuntimeVariablesExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitRuntimeVariables(RuntimeVariablesExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitRuntimeVariablesRuntimeVariablesExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitRuntimeVariables(RuntimeVariablesExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitSwitch(System.Linq.Expressions.SwitchExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitSwitch(SwitchExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitSwitchCase(System.Linq.Expressions.SwitchCase)">
+            <summary>Sets the stub of ExpressionVisitor.VisitSwitchCase(SwitchCase node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitSwitchCaseSwitchCase">
+            <summary>Sets the stub of ExpressionVisitor.VisitSwitchCase(SwitchCase node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitSwitchSwitchExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitSwitch(SwitchExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitTry(System.Linq.Expressions.TryExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitTry(TryExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitTryTryExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitTry(TryExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitTypeBinary(System.Linq.Expressions.TypeBinaryExpression)">
+            <summary>Sets the stub of ExpressionVisitor.VisitTypeBinary(TypeBinaryExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitTypeBinaryTypeBinaryExpression">
+            <summary>Sets the stub of ExpressionVisitor.VisitTypeBinary(TypeBinaryExpression node)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitUnary(System.Linq.Expressions.UnaryExpression)">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitUnary(UnaryExpression node)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Common.OData.Fakes.StubUrlExpressionVisitor.VisitUnaryUnaryExpression">
+            <summary>Sets the stub of UrlExpressionVisitor.VisitUnary(UnaryExpression node)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimAzureOperationResponse">
+            <summary>Shim type of Microsoft.Azure.AzureOperationResponse</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimAzureOperationResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimAzureOperationResponse.#ctor(Microsoft.Azure.AzureOperationResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimAzureOperationResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimAzureOperationResponse.AllInstances.RequestIdGet">
+            <summary>Sets the shim of AzureOperationResponse.get_RequestId()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimAzureOperationResponse.AllInstances.RequestIdSetString">
+            <summary>Sets the shim of AzureOperationResponse.set_RequestId(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimAzureOperationResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimAzureOperationResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimAzureOperationResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimAzureOperationResponse.Constructor">
+            <summary>Sets the shim of AzureOperationResponse.AzureOperationResponse()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimAzureOperationResponse.RequestIdGet">
+            <summary>Sets the shim of AzureOperationResponse.get_RequestId()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimAzureOperationResponse.RequestIdSetString">
+            <summary>Sets the shim of AzureOperationResponse.set_RequestId(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler">
+            <summary>Shim type of Microsoft.Azure.ClientRequestTrackingHandler</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.#ctor(Microsoft.Azure.ClientRequestTrackingHandler)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.AllInstances.ProcessRequestHttpRequestMessageCancellationToken">
+            <summary>Sets the shim of ClientRequestTrackingHandler.ProcessRequest(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.AllInstances.ProcessResponseHttpResponseMessageCancellationToken">
+            <summary>Sets the shim of ClientRequestTrackingHandler.ProcessResponse(HttpResponseMessage response, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.AllInstances.TrackingIdGet">
+            <summary>Sets the shim of ClientRequestTrackingHandler.get_TrackingId()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.AllInstances.TrackingIdSetString">
+            <summary>Sets the shim of ClientRequestTrackingHandler.set_TrackingId(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.ConstructorString">
+            <summary>Sets the shim of ClientRequestTrackingHandler.ClientRequestTrackingHandler(String trackingId)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.ProcessRequestHttpRequestMessageCancellationToken">
+            <summary>Sets the shim of ClientRequestTrackingHandler.ProcessRequest(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.ProcessResponseHttpResponseMessageCancellationToken">
+            <summary>Sets the shim of ClientRequestTrackingHandler.ProcessResponse(HttpResponseMessage response, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.TrackingIdGet">
+            <summary>Sets the shim of ClientRequestTrackingHandler.get_TrackingId()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimClientRequestTrackingHandler.TrackingIdSetString">
+            <summary>Sets the shim of ClientRequestTrackingHandler.set_TrackingId(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimOperationStatusResponse">
+            <summary>Shim type of Microsoft.Azure.OperationStatusResponse</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimOperationStatusResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimOperationStatusResponse.#ctor(Microsoft.Azure.OperationStatusResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances.ErrorGet">
+            <summary>Sets the shim of OperationStatusResponse.get_Error()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances.ErrorSetOperationStatusResponseErrorDetails">
+            <summary>Sets the shim of OperationStatusResponse.set_Error(ErrorDetails value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances.HttpStatusCodeGet">
+            <summary>Sets the shim of OperationStatusResponse.get_HttpStatusCode()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances.HttpStatusCodeSetHttpStatusCode">
+            <summary>Sets the shim of OperationStatusResponse.set_HttpStatusCode(HttpStatusCode value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances.IdGet">
+            <summary>Sets the shim of OperationStatusResponse.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances.IdSetString">
+            <summary>Sets the shim of OperationStatusResponse.set_Id(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances.StatusGet">
+            <summary>Sets the shim of OperationStatusResponse.get_Status()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.AllInstances.StatusSetOperationStatus">
+            <summary>Sets the shim of OperationStatusResponse.set_Status(OperationStatus value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimOperationStatusResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimOperationStatusResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.Constructor">
+            <summary>Sets the shim of OperationStatusResponse.OperationStatusResponse()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ErrorGet">
+            <summary>Sets the shim of OperationStatusResponse.get_Error()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ErrorSetOperationStatusResponseErrorDetails">
+            <summary>Sets the shim of OperationStatusResponse.set_Error(ErrorDetails value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.HttpStatusCodeGet">
+            <summary>Sets the shim of OperationStatusResponse.get_HttpStatusCode()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.HttpStatusCodeSetHttpStatusCode">
+            <summary>Sets the shim of OperationStatusResponse.set_HttpStatusCode(HttpStatusCode value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.IdGet">
+            <summary>Sets the shim of OperationStatusResponse.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.IdSetString">
+            <summary>Sets the shim of OperationStatusResponse.set_Id(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails">
+            <summary>Shim type of Microsoft.Azure.OperationStatusResponse+ErrorDetails</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.#ctor(Microsoft.Azure.OperationStatusResponse.ErrorDetails)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.AllInstances.CodeGet">
+            <summary>Sets the shim of ErrorDetails.get_Code()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.AllInstances.CodeSetString">
+            <summary>Sets the shim of ErrorDetails.set_Code(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.AllInstances.MessageGet">
+            <summary>Sets the shim of ErrorDetails.get_Message()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.AllInstances.MessageSetString">
+            <summary>Sets the shim of ErrorDetails.set_Message(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.CodeGet">
+            <summary>Sets the shim of ErrorDetails.get_Code()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.CodeSetString">
+            <summary>Sets the shim of ErrorDetails.set_Code(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.Constructor">
+            <summary>Sets the shim of ErrorDetails.ErrorDetails()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.MessageGet">
+            <summary>Sets the shim of ErrorDetails.get_Message()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.ShimErrorDetails.MessageSetString">
+            <summary>Sets the shim of ErrorDetails.set_Message(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.StatusGet">
+            <summary>Sets the shim of OperationStatusResponse.get_Status()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimOperationStatusResponse.StatusSetOperationStatus">
+            <summary>Sets the shim of OperationStatusResponse.set_Status(OperationStatus value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimResourceBase">
+            <summary>Shim type of Microsoft.Azure.ResourceBase</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceBase.#ctor(Microsoft.Azure.ResourceBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimResourceBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.AllInstances.LocationGet">
+            <summary>Sets the shim of ResourceBase.get_Location()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.AllInstances.LocationSetString">
+            <summary>Sets the shim of ResourceBase.set_Location(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.AllInstances.TagsGet">
+            <summary>Sets the shim of ResourceBase.get_Tags()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.AllInstances.TagsSetIDictionaryOfStringString">
+            <summary>Sets the shim of ResourceBase.set_Tags(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.Constructor">
+            <summary>Sets the shim of ResourceBase.ResourceBase()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.ConstructorString">
+            <summary>Sets the shim of ResourceBase.ResourceBase(String location)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.LocationGet">
+            <summary>Sets the shim of ResourceBase.get_Location()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.LocationSetString">
+            <summary>Sets the shim of ResourceBase.set_Location(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.TagsGet">
+            <summary>Sets the shim of ResourceBase.get_Tags()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBase.TagsSetIDictionaryOfStringString">
+            <summary>Sets the shim of ResourceBase.set_Tags(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimResourceBaseExtended">
+            <summary>Shim type of Microsoft.Azure.ResourceBaseExtended</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceBaseExtended.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceBaseExtended.#ctor(Microsoft.Azure.ResourceBaseExtended)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimResourceBaseExtended.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.AllInstances.IdGet">
+            <summary>Sets the shim of ResourceBaseExtended.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.AllInstances.IdSetString">
+            <summary>Sets the shim of ResourceBaseExtended.set_Id(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.AllInstances.NameGet">
+            <summary>Sets the shim of ResourceBaseExtended.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.AllInstances.NameSetString">
+            <summary>Sets the shim of ResourceBaseExtended.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.AllInstances.TypeGet">
+            <summary>Sets the shim of ResourceBaseExtended.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.AllInstances.TypeSetString">
+            <summary>Sets the shim of ResourceBaseExtended.set_Type(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceBaseExtended.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceBaseExtended.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.Constructor">
+            <summary>Sets the shim of ResourceBaseExtended.ResourceBaseExtended()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.ConstructorString">
+            <summary>Sets the shim of ResourceBaseExtended.ResourceBaseExtended(String location)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.IdGet">
+            <summary>Sets the shim of ResourceBaseExtended.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.IdSetString">
+            <summary>Sets the shim of ResourceBaseExtended.set_Id(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.NameGet">
+            <summary>Sets the shim of ResourceBaseExtended.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.NameSetString">
+            <summary>Sets the shim of ResourceBaseExtended.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.TypeGet">
+            <summary>Sets the shim of ResourceBaseExtended.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceBaseExtended.TypeSetString">
+            <summary>Sets the shim of ResourceBaseExtended.set_Type(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimResourceIdentity">
+            <summary>Shim type of Microsoft.Azure.ResourceIdentity</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceIdentity.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceIdentity.#ctor(Microsoft.Azure.ResourceIdentity)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ParentResourcePathGet">
+            <summary>Sets the shim of ResourceIdentity.get_ParentResourcePath()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ParentResourcePathSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ParentResourcePath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ResourceNameGet">
+            <summary>Sets the shim of ResourceIdentity.get_ResourceName()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ResourceNameSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ResourceName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ResourceProviderApiVersionGet">
+            <summary>Sets the shim of ResourceIdentity.get_ResourceProviderApiVersion()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ResourceProviderApiVersionSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ResourceProviderApiVersion(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ResourceProviderNamespaceGet">
+            <summary>Sets the shim of ResourceIdentity.get_ResourceProviderNamespace()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ResourceProviderNamespaceSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ResourceProviderNamespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ResourceTypeGet">
+            <summary>Sets the shim of ResourceIdentity.get_ResourceType()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.AllInstances.ResourceTypeSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ResourceType(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceIdentity.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimResourceIdentity.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.Constructor">
+            <summary>Sets the shim of ResourceIdentity.ResourceIdentity()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ConstructorStringStringString">
+            <summary>Sets the shim of ResourceIdentity.ResourceIdentity(String name, String resourceType, String apiVersion)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.GetProviderFromResourceTypeString">
+            <summary>Sets the shim of ResourceIdentity.GetProviderFromResourceType(String resourceType)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.GetTypeFromResourceTypeString">
+            <summary>Sets the shim of ResourceIdentity.GetTypeFromResourceType(String resourceType)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ParentResourcePathGet">
+            <summary>Sets the shim of ResourceIdentity.get_ParentResourcePath()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ParentResourcePathSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ParentResourcePath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ResourceNameGet">
+            <summary>Sets the shim of ResourceIdentity.get_ResourceName()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ResourceNameSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ResourceName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ResourceProviderApiVersionGet">
+            <summary>Sets the shim of ResourceIdentity.get_ResourceProviderApiVersion()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ResourceProviderApiVersionSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ResourceProviderApiVersion(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ResourceProviderNamespaceGet">
+            <summary>Sets the shim of ResourceIdentity.get_ResourceProviderNamespace()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ResourceProviderNamespaceSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ResourceProviderNamespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ResourceTypeGet">
+            <summary>Sets the shim of ResourceIdentity.get_ResourceType()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimResourceIdentity.ResourceTypeSetString">
+            <summary>Sets the shim of ResourceIdentity.set_ResourceType(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimSubscriptionCloudCredentials">
+            <summary>Shim type of Microsoft.Azure.SubscriptionCloudCredentials</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimSubscriptionCloudCredentials.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimSubscriptionCloudCredentials.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimSubscriptionCloudCredentials.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimSubscriptionCloudCredentials.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimSubscriptionCloudCredentials.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimSubscriptionCloudCredentials.Constructor">
+            <summary>Sets the shim of SubscriptionCloudCredentials.SubscriptionCloudCredentials()</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimTokenCloudCredentials">
+            <summary>Shim type of Microsoft.Azure.TokenCloudCredentials</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.#ctor(Microsoft.Azure.TokenCloudCredentials)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.AllInstances.ProcessHttpRequestAsyncHttpRequestMessageCancellationToken">
+            <summary>Sets the shim of TokenCloudCredentials.ProcessHttpRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.AllInstances.SubscriptionIdGet">
+            <summary>Sets the shim of TokenCloudCredentials.get_SubscriptionId()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.AllInstances.TokenGet">
+            <summary>Sets the shim of TokenCloudCredentials.get_Token()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.AllInstances.TokenSetString">
+            <summary>Sets the shim of TokenCloudCredentials.set_Token(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.ConstructorString">
+            <summary>Sets the shim of TokenCloudCredentials.TokenCloudCredentials(String token)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.ConstructorStringString">
+            <summary>Sets the shim of TokenCloudCredentials.TokenCloudCredentials(String subscriptionId, String token)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.CreateIDictionaryOfStringObject">
+            <summary>Sets the shim of TokenCloudCredentials.Create(IDictionary`2&lt;String,Object&gt; settings)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.ProcessHttpRequestAsyncHttpRequestMessageCancellationToken">
+            <summary>Sets the shim of TokenCloudCredentials.ProcessHttpRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.SubscriptionIdGet">
+            <summary>Sets the shim of TokenCloudCredentials.get_SubscriptionId()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.TokenGet">
+            <summary>Sets the shim of TokenCloudCredentials.get_Token()</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.ShimTokenCloudCredentials.TokenSetString">
+            <summary>Sets the shim of TokenCloudCredentials.set_Token(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.StubAzureOperationResponse">
+            <summary>Stub type of Microsoft.Azure.AzureOperationResponse</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubAzureOperationResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubAzureOperationResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubAzureOperationResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubAzureOperationResponse</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubAzureOperationResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubAzureOperationResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler">
+            <summary>Stub type of Microsoft.Azure.ClientRequestTrackingHandler</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.Dispose(System.Boolean)">
+            <summary>Sets the stub of DelegatingHandler.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.DisposeBoolean">
+            <summary>Sets the stub of DelegatingHandler.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.InitializeStub">
+            <summary>Initializes a new instance of type StubClientRequestTrackingHandler</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.ProcessRequest(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>Sets the stub of ClientRequestTrackingHandler.ProcessRequest(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.ProcessRequestHttpRequestMessageCancellationToken">
+            <summary>Sets the stub of ClientRequestTrackingHandler.ProcessRequest(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.ProcessResponse(System.Net.Http.HttpResponseMessage,System.Threading.CancellationToken)">
+            <summary>Sets the stub of ClientRequestTrackingHandler.ProcessResponse(HttpResponseMessage response, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Fakes.StubClientRequestTrackingHandler.ProcessResponseHttpResponseMessageCancellationToken">
+            <summary>Sets the stub of ClientRequestTrackingHandler.ProcessResponse(HttpResponseMessage response, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.StubOperationStatusResponse">
+            <summary>Stub type of Microsoft.Azure.OperationStatusResponse</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubOperationStatusResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubOperationStatusResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubOperationStatusResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubOperationStatusResponse</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubOperationStatusResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubOperationStatusResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.StubResourceBase">
+            <summary>Stub type of Microsoft.Azure.ResourceBase</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceBase.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceBase.InitializeStub">
+            <summary>Initializes a new instance of type StubResourceBase</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.StubResourceBaseExtended">
+            <summary>Stub type of Microsoft.Azure.ResourceBaseExtended</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceBaseExtended.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceBaseExtended.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceBaseExtended.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceBaseExtended.InitializeStub">
+            <summary>Initializes a new instance of type StubResourceBaseExtended</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceBaseExtended.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceBaseExtended.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.StubResourceIdentity">
+            <summary>Stub type of Microsoft.Azure.ResourceIdentity</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceIdentity.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceIdentity.#ctor(System.String,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceIdentity.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubResourceIdentity.InitializeStub">
+            <summary>Initializes a new instance of type StubResourceIdentity</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceIdentity.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubResourceIdentity.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials">
+            <summary>Stub type of Microsoft.Azure.SubscriptionCloudCredentials</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.InitializeServiceClient``1(Hyak.Common.ServiceClient{``0})">
+            <summary>Sets the stub of CloudCredentials.InitializeServiceClient(ServiceClient`1&lt;!!0&gt; client)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.InitializeServiceClientOf1ServiceClientOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Hyak.Common.ServiceClient{``0}})">
+            <summary>Sets stubs of InitializeServiceClient(ServiceClient`1&lt;!!0&gt; client)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.InitializeStub">
+            <summary>Initializes a new instance of type StubSubscriptionCloudCredentials</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>Sets the stub of CloudCredentials.ProcessHttpRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.ProcessHttpRequestAsyncHttpRequestMessageCancellationToken">
+            <summary>Sets the stub of CloudCredentials.ProcessHttpRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.SubscriptionId">
+            <summary>Sets the stub of SubscriptionCloudCredentials.get_SubscriptionId()</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Fakes.StubSubscriptionCloudCredentials.SubscriptionIdGet">
+            <summary>Sets the stub of SubscriptionCloudCredentials.get_SubscriptionId()</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Fakes.StubTokenCloudCredentials">
+            <summary>Stub type of Microsoft.Azure.TokenCloudCredentials</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubTokenCloudCredentials.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubTokenCloudCredentials.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubTokenCloudCredentials.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubTokenCloudCredentials.InitializeServiceClient``1(Hyak.Common.ServiceClient{``0})">
+            <summary>Sets the stub of CloudCredentials.InitializeServiceClient(ServiceClient`1&lt;!!0&gt; client)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubTokenCloudCredentials.InitializeServiceClientOf1ServiceClientOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Hyak.Common.ServiceClient{``0}})">
+            <summary>Sets stubs of InitializeServiceClient(ServiceClient`1&lt;!!0&gt; client)</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubTokenCloudCredentials.InitializeStub">
+            <summary>Initializes a new instance of type StubTokenCloudCredentials</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubTokenCloudCredentials.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubTokenCloudCredentials.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Azure.Fakes.StubTokenCloudCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>Sets the stub of TokenCloudCredentials.ProcessHttpRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Fakes.StubTokenCloudCredentials.ProcessHttpRequestAsyncHttpRequestMessageCancellationToken">
+            <summary>Sets the stub of TokenCloudCredentials.ProcessHttpRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="P:Microsoft.Azure.Fakes.StubTokenCloudCredentials.SubscriptionId">
+            <summary>Sets the stub of TokenCloudCredentials.get_SubscriptionId()</summary>
+        </member>
+        <member name="F:Microsoft.Azure.Fakes.StubTokenCloudCredentials.SubscriptionIdGet">
+            <summary>Sets the stub of TokenCloudCredentials.get_SubscriptionId()</summary>
+        </member>
+    </members>
+</doc>

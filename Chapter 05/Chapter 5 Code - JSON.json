@@ -1,0 +1,30 @@
+// sample array
+{
+    "id": "c84f7b5c-0da0-4832-ba53-7e40a00e579f",
+    "conferenceRoom": "Market Research Lab",
+    "sensors": [
+        {
+            "sensorId": "7d7785fe-6514-421a-9808-19594f47e96d"
+        },
+        {
+ 
+            "sensorId": "a5fb1a3e-403a-4084-b0c6-7244efea1b63"
+        }
+    ]
+}
+
+
+// sample nested array
+{
+    "id": "ba5fbde4-bfa1-4046-b361-7dd27019a55f",
+    "conferenceRoom": "Market Research Lab",
+    "readings": 
+    { 
+        "Temperature" : 71, 
+        "Humidity" : 52,
+        "Pressure" : 22 
+    }
+}
+
+
+
